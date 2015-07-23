@@ -1,0 +1,23 @@
+{
+    "name": "clearpdo/clearpdo",
+    "type": "library",
+    "description": "ClearPDO makes connecting with databases and running queries extremely simple.",
+    "keywords": ["database", "pdo", "mysql"],
+    "homepage": "https://github.com/funkjedi/clearpdo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Robertson",
+            "email": "funkjedi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClearPDO\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "ext-pdo": "*"
+    }
+}
