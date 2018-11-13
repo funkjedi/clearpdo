@@ -216,7 +216,7 @@ class PDO extends \PDO {
 			}
 		}
 
-		return "`$tableName` SET " . implode(', ', $placeholders);
+		return "SET " . implode(', ', $placeholders);
 	}
 
 }
